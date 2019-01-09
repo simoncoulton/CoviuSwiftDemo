@@ -1,0 +1,16 @@
+PODS:
+  - CoviuSDKiOS (0.0.7)
+
+DEPENDENCIES:
+  - CoviuSDKiOS
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CoviuSDKiOS
+
+SPEC CHECKSUMS:
+  CoviuSDKiOS: 1126745835e696574dce7edf9ce69ffa483e6b99
+
+PODFILE CHECKSUM: a9337557087650cf75631752b86dac08deacd078
+
+COCOAPODS: 1.5.3

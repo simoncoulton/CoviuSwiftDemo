@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		248A24C856563802C2F16292 /* Pods_CoviuSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9218921E154273BAA12C6542 /* Pods_CoviuSwiftDemoUITests.framework */; };
+		9D7B2ACA15220B6A7EAB51F6 /* Pods_CoviuSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354ACCFC46EA997210555028 /* Pods_CoviuSwiftDemoTests.framework */; };
+		FD3CF48721E4CA5E00AEE49B /* Pods_CoviuSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3CF48621E4CA5E00AEE49B /* Pods_CoviuSwiftDemo.framework */; };
+		FD94692C21E4786A00A080DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94692B21E4786A00A080DC /* AppDelegate.swift */; };
+		FD94692E21E4786A00A080DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94692D21E4786A00A080DC /* ViewController.swift */; };
+		FD94693121E4786A00A080DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD94692F21E4786A00A080DC /* Main.storyboard */; };
+		FD94693321E4786B00A080DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD94693221E4786B00A080DC /* Assets.xcassets */; };
+		FD94693621E4786B00A080DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD94693421E4786B00A080DC /* LaunchScreen.storyboard */; };
+		FD94694121E4786B00A080DC /* CoviuSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94694021E4786B00A080DC /* CoviuSwiftDemoTests.swift */; };
+		FD94694C21E4786B00A080DC /* CoviuSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94694B21E4786B00A080DC /* CoviuSwiftDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD94693D21E4786B00A080DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD94692021E4786A00A080DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD94692721E4786A00A080DC;
+			remoteInfo = CoviuSwiftDemo;
+		};
+		FD94694821E4786B00A080DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD94692021E4786A00A080DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD94692721E4786A00A080DC;
+			remoteInfo = CoviuSwiftDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25F7DE5EE7496EEF242CF4A4 /* Pods-CoviuSwiftDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoviuSwiftDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoviuSwiftDemoUITests/Pods-CoviuSwiftDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		354ACCFC46EA997210555028 /* Pods_CoviuSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoviuSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		523C65F6DC00B2784D0A0D38 /* Pods-CoviuSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoviuSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoviuSwiftDemo/Pods-CoviuSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5AC2F172D89B4CCFB32D290C /* Pods-CoviuSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoviuSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoviuSwiftDemo/Pods-CoviuSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5BEF2BC87316FB6ECD2472F1 /* Pods-CoviuSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoviuSwiftDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoviuSwiftDemoTests/Pods-CoviuSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9218921E154273BAA12C6542 /* Pods_CoviuSwiftDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoviuSwiftDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1AE278A0A578962DC058ACB /* Pods-CoviuSwiftDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoviuSwiftDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoviuSwiftDemoUITests/Pods-CoviuSwiftDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3408F072A949B040881A716 /* Pods_CoviuSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoviuSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5E74D0C722E48D8185F5F5 /* Pods-CoviuSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoviuSwiftDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoviuSwiftDemoTests/Pods-CoviuSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD3CF48621E4CA5E00AEE49B /* Pods_CoviuSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CoviuSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD94692821E4786A00A080DC /* CoviuSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoviuSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD94692B21E4786A00A080DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD94692D21E4786A00A080DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD94693021E4786A00A080DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD94693221E4786B00A080DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD94693521E4786B00A080DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD94693721E4786B00A080DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD94693C21E4786B00A080DC /* CoviuSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoviuSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD94694021E4786B00A080DC /* CoviuSwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoviuSwiftDemoTests.swift; sourceTree = "<group>"; };
+		FD94694221E4786B00A080DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD94694721E4786B00A080DC /* CoviuSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoviuSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD94694B21E4786B00A080DC /* CoviuSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoviuSwiftDemoUITests.swift; sourceTree = "<group>"; };
+		FD94694D21E4786B00A080DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD94695A21E47C0D00A080DC /* CoviuSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoviuSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD94692521E4786A00A080DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3CF48721E4CA5E00AEE49B /* Pods_CoviuSwiftDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD94693921E4786B00A080DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7B2ACA15220B6A7EAB51F6 /* Pods_CoviuSwiftDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD94694421E4786B00A080DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248A24C856563802C2F16292 /* Pods_CoviuSwiftDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9379AB03A07BCDD146A8B0D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AC2F172D89B4CCFB32D290C /* Pods-CoviuSwiftDemo.debug.xcconfig */,
+				523C65F6DC00B2784D0A0D38 /* Pods-CoviuSwiftDemo.release.xcconfig */,
+				5BEF2BC87316FB6ECD2472F1 /* Pods-CoviuSwiftDemoTests.debug.xcconfig */,
+				EA5E74D0C722E48D8185F5F5 /* Pods-CoviuSwiftDemoTests.release.xcconfig */,
+				A1AE278A0A578962DC058ACB /* Pods-CoviuSwiftDemoUITests.debug.xcconfig */,
+				25F7DE5EE7496EEF242CF4A4 /* Pods-CoviuSwiftDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E559E43E25070BE1B4FF4415 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD3CF48621E4CA5E00AEE49B /* Pods_CoviuSwiftDemo.framework */,
+				D3408F072A949B040881A716 /* Pods_CoviuSwiftDemo.framework */,
+				354ACCFC46EA997210555028 /* Pods_CoviuSwiftDemoTests.framework */,
+				9218921E154273BAA12C6542 /* Pods_CoviuSwiftDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD94691F21E4786A00A080DC = {
+			isa = PBXGroup;
+			children = (
+				FD94692A21E4786A00A080DC /* CoviuSwiftDemo */,
+				FD94693F21E4786B00A080DC /* CoviuSwiftDemoTests */,
+				FD94694A21E4786B00A080DC /* CoviuSwiftDemoUITests */,
+				FD94692921E4786A00A080DC /* Products */,
+				9379AB03A07BCDD146A8B0D6 /* Pods */,
+				E559E43E25070BE1B4FF4415 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD94692921E4786A00A080DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD94692821E4786A00A080DC /* CoviuSwiftDemo.app */,
+				FD94693C21E4786B00A080DC /* CoviuSwiftDemoTests.xctest */,
+				FD94694721E4786B00A080DC /* CoviuSwiftDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD94692A21E4786A00A080DC /* CoviuSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FD94692B21E4786A00A080DC /* AppDelegate.swift */,
+				FD94692D21E4786A00A080DC /* ViewController.swift */,
+				FD94692F21E4786A00A080DC /* Main.storyboard */,
+				FD94693221E4786B00A080DC /* Assets.xcassets */,
+				FD94693421E4786B00A080DC /* LaunchScreen.storyboard */,
+				FD94693721E4786B00A080DC /* Info.plist */,
+				FD94695A21E47C0D00A080DC /* CoviuSwiftDemo-Bridging-Header.h */,
+			);
+			path = CoviuSwiftDemo;
+			sourceTree = "<group>";
+		};
+		FD94693F21E4786B00A080DC /* CoviuSwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD94694021E4786B00A080DC /* CoviuSwiftDemoTests.swift */,
+				FD94694221E4786B00A080DC /* Info.plist */,
+			);
+			path = CoviuSwiftDemoTests;
+			sourceTree = "<group>";
+		};
+		FD94694A21E4786B00A080DC /* CoviuSwiftDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD94694B21E4786B00A080DC /* CoviuSwiftDemoUITests.swift */,
+				FD94694D21E4786B00A080DC /* Info.plist */,
+			);
+			path = CoviuSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD94692721E4786A00A080DC /* CoviuSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD94695021E4786B00A080DC /* Build configuration list for PBXNativeTarget "CoviuSwiftDemo" */;
+			buildPhases = (
+				D91DEB6499DF7B6FFE339E67 /* [CP] Check Pods Manifest.lock */,
+				FD94692421E4786A00A080DC /* Sources */,
+				FD94692521E4786A00A080DC /* Frameworks */,
+				FD94692621E4786A00A080DC /* Resources */,
+				4D574F0B27F55C2C2320F484 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoviuSwiftDemo;
+			productName = CoviuSwiftDemo;
+			productReference = FD94692821E4786A00A080DC /* CoviuSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD94693B21E4786B00A080DC /* CoviuSwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD94695321E4786B00A080DC /* Build configuration list for PBXNativeTarget "CoviuSwiftDemoTests" */;
+			buildPhases = (
+				F837E2CF39FBB9BFF909292E /* [CP] Check Pods Manifest.lock */,
+				FD94693821E4786B00A080DC /* Sources */,
+				FD94693921E4786B00A080DC /* Frameworks */,
+				FD94693A21E4786B00A080DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD94693E21E4786B00A080DC /* PBXTargetDependency */,
+			);
+			name = CoviuSwiftDemoTests;
+			productName = CoviuSwiftDemoTests;
+			productReference = FD94693C21E4786B00A080DC /* CoviuSwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD94694621E4786B00A080DC /* CoviuSwiftDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD94695621E4786B00A080DC /* Build configuration list for PBXNativeTarget "CoviuSwiftDemoUITests" */;
+			buildPhases = (
+				5B2D45158B33213A05C52D16 /* [CP] Check Pods Manifest.lock */,
+				FD94694321E4786B00A080DC /* Sources */,
+				FD94694421E4786B00A080DC /* Frameworks */,
+				FD94694521E4786B00A080DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD94694921E4786B00A080DC /* PBXTargetDependency */,
+			);
+			name = CoviuSwiftDemoUITests;
+			productName = CoviuSwiftDemoUITests;
+			productReference = FD94694721E4786B00A080DC /* CoviuSwiftDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD94692021E4786A00A080DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Coviu;
+				TargetAttributes = {
+					FD94692721E4786A00A080DC = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					FD94693B21E4786B00A080DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD94692721E4786A00A080DC;
+					};
+					FD94694621E4786B00A080DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD94692721E4786A00A080DC;
+					};
+				};
+			};
+			buildConfigurationList = FD94692321E4786A00A080DC /* Build configuration list for PBXProject "CoviuSwiftDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD94691F21E4786A00A080DC;
+			productRefGroup = FD94692921E4786A00A080DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD94692721E4786A00A080DC /* CoviuSwiftDemo */,
+				FD94693B21E4786B00A080DC /* CoviuSwiftDemoTests */,
+				FD94694621E4786B00A080DC /* CoviuSwiftDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD94692621E4786A00A080DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD94693621E4786B00A080DC /* LaunchScreen.storyboard in Resources */,
+				FD94693321E4786B00A080DC /* Assets.xcassets in Resources */,
+				FD94693121E4786A00A080DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD94693A21E4786B00A080DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD94694521E4786B00A080DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D574F0B27F55C2C2320F484 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoviuSwiftDemo/Pods-CoviuSwiftDemo-resources.sh",
+				"${PODS_ROOT}/CoviuSDKiOS/CoviuSDKiOS.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CoviuSDKiOS.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoviuSwiftDemo/Pods-CoviuSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2D45158B33213A05C52D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoviuSwiftDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D91DEB6499DF7B6FFE339E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoviuSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F837E2CF39FBB9BFF909292E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoviuSwiftDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD94692421E4786A00A080DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD94692E21E4786A00A080DC /* ViewController.swift in Sources */,
+				FD94692C21E4786A00A080DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD94693821E4786B00A080DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD94694121E4786B00A080DC /* CoviuSwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD94694321E4786B00A080DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD94694C21E4786B00A080DC /* CoviuSwiftDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD94693E21E4786B00A080DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD94692721E4786A00A080DC /* CoviuSwiftDemo */;
+			targetProxy = FD94693D21E4786B00A080DC /* PBXContainerItemProxy */;
+		};
+		FD94694921E4786B00A080DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD94692721E4786A00A080DC /* CoviuSwiftDemo */;
+			targetProxy = FD94694821E4786B00A080DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD94692F21E4786A00A080DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD94693021E4786A00A080DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD94693421E4786B00A080DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD94693521E4786B00A080DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD94694E21E4786B00A080DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD94694F21E4786B00A080DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD94695121E4786B00A080DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC2F172D89B4CCFB32D290C /* Pods-CoviuSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = CoviuSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"CoviuSDKiOS\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"WebKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coviu.demo.CoviuSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoviuSwiftDemo/CoviuSwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD94695221E4786B00A080DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523C65F6DC00B2784D0A0D38 /* Pods-CoviuSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CoviuSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"CoviuSDKiOS\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"WebKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coviu.demo.CoviuSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoviuSwiftDemo/CoviuSwiftDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD94695421E4786B00A080DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BEF2BC87316FB6ECD2472F1 /* Pods-CoviuSwiftDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G6RWL6CBB;
+				INFOPLIST_FILE = CoviuSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coviu.demo.CoviuSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoviuSwiftDemo.app/CoviuSwiftDemo";
+			};
+			name = Debug;
+		};
+		FD94695521E4786B00A080DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5E74D0C722E48D8185F5F5 /* Pods-CoviuSwiftDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G6RWL6CBB;
+				INFOPLIST_FILE = CoviuSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coviu.demo.CoviuSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoviuSwiftDemo.app/CoviuSwiftDemo";
+			};
+			name = Release;
+		};
+		FD94695721E4786B00A080DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1AE278A0A578962DC058ACB /* Pods-CoviuSwiftDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G6RWL6CBB;
+				INFOPLIST_FILE = CoviuSwiftDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coviu.demo.CoviuSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoviuSwiftDemo;
+			};
+			name = Debug;
+		};
+		FD94695821E4786B00A080DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F7DE5EE7496EEF242CF4A4 /* Pods-CoviuSwiftDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G6RWL6CBB;
+				INFOPLIST_FILE = CoviuSwiftDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coviu.demo.CoviuSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoviuSwiftDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD94692321E4786A00A080DC /* Build configuration list for PBXProject "CoviuSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD94694E21E4786B00A080DC /* Debug */,
+				FD94694F21E4786B00A080DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD94695021E4786B00A080DC /* Build configuration list for PBXNativeTarget "CoviuSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD94695121E4786B00A080DC /* Debug */,
+				FD94695221E4786B00A080DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD94695321E4786B00A080DC /* Build configuration list for PBXNativeTarget "CoviuSwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD94695421E4786B00A080DC /* Debug */,
+				FD94695521E4786B00A080DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD94695621E4786B00A080DC /* Build configuration list for PBXNativeTarget "CoviuSwiftDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD94695721E4786B00A080DC /* Debug */,
+				FD94695821E4786B00A080DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD94692021E4786A00A080DC /* Project object */;
+}
