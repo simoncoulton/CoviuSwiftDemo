@@ -18,8 +18,6 @@ Save it and run:
 
 Now you can open the **.xcworkspace** file in Xcode.
 
-<img src="imgs/xcworkspace_img.png" width="200">
-
 ## Step 1: Import the Coviu SDK via a bridging header
 
 The Coviu SDK is written in Objective-C. In order to use it within a Swift application, you must first include it within your applications bridging header.
